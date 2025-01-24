@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokeApi.css">
+    <link rel="icon" href="pokeball.png">
+    <script src="pokeApi.js"></script>
+    <title>Pokédex</title>
+</head>
+<body>
+    <div id="content">
+        <div id="marco">
+            <div id="decoraciones">
+                <div id="decoracionUno"></div>
+                <div class="decoracionDos"></div>
+                <div class="decoracionDos"></div>
+            </div>        
+            <div id="fotoMarco">
+                <div id="foto"></div>
+            </div>
+            <div id="nombreMarco">
+                <div id="numero"></div>
+                <div id="nombre"></div>
+            </div>
+        </div>
+        <div id="selector">            
+            <form id="pokemonForm">           
+            <input type="text" id="pokemonName" name="pokemonName" placeholder="Nombre del Pokémon">
+            <input type="number" id="pokemonNumber" name="pokemonNumber" min="1" max="99999999" placeholder="1 - 1008">
+            <button id="boton">Buscar</button>
+            </form>
+        </div>
+        <div id="informacion">
+            <div class="titulo">Tipo:</div>
+            <div id="iDtipo" class="contenidoInfo"></div>
+
+            <div class="titulo">Habilidades:</div>
+            <div id="iDhabilidades" class="contenidoInfo">&nbsp;</div>
+
+            <div class="titulo">Altura:</div>
+            <div id="iDaltura" class="contenidoInfo">&nbsp;</div>
+
+            <div class="titulo">Peso:</div>
+            <div id="iDpeso" class="contenidoInfo">&nbsp;</div>
+
+            <div class="titulo">Descripcion:</div>
+            <div id="iDdescripcion" class="contenidoInfo">&nbsp;</div>
+        </div>
+    </div>
+</body>
+</html>
